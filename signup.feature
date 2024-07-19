@@ -42,6 +42,7 @@ Scenario: Unsuccessful login with invalid credentials
     Then the user should redirected to home page  
 
 
+
 Scenario: Unsuccessful login with empty fields
     Given the user is on the login page
     When the user leaves the username and password fields empty
