@@ -3,6 +3,8 @@ from pytest_bdd import scenarios, given, when, then
 from selenium.webdriver.common.by import By
 from helpersF import *
 from fixture import *
+from upload_to_testrail import *
+
 
 # Load all scenarios from the feature file
 scenarios("signup.feature")
